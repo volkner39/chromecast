@@ -74,7 +74,7 @@ def main():
 	
 	# Keep trying to connect until wanted chromecast is online
 	while (cast == None):
-		chromecasts = pychromecast.get_chromecasts()
+		chromecasts, browsers = pychromecast.get_chromecasts()
 		try:
 			# Loop through all the chromecasts in the house
 			cast = next(cc for cc in chromecasts if cc.device.friendly_name == CAST_NAME)

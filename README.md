@@ -74,7 +74,7 @@ Then, you need to get a refresh token here: https://developers.google.com/oauthp
 In the OAuth 2.0 configuration settings menu on the top-right, select the box "Use your own OAuth credentials".
 Enter your Client ID and Client Secret. If you get a URI error, you didn't provide the link above.
 
-Next, choose Youtube Data API v3 and select the scope "youtube.readonly". Now, you can replace the fields in my script with your keys!
+Next, choose Youtube Data API v3 and select the scope "youtube.readonly". Now, you can replace the fields with <> in my script with your keys!
 The <playlist_id> is the id of the youtube playlist you want to watch. You can find this in the youtube link of the playlist.
 
 ---
@@ -87,7 +87,3 @@ The <playlist_id> is the id of the youtube playlist you want to watch. You can f
 * If you want to randomize videos or increase the # of videos retrieved just read the comments to comment/uncomment.
 
 * Only tested for Chromecast 2 on Windows and Linux
-
-
-Will document this more later.
-Let me know if you want any features or if there are any bugs.
